@@ -1,10 +1,10 @@
 {
-  "mode": "development",
-  "endpoint": "http://localhost:3000/",
+  "mode": "production",
+  "endpoint": "",
   "authEndpoint" : "",
   "server": {
     "port": 3000,
     "static": "public",
-    "morgan": "dev"
+    "morgan": "combined"
   }
 }
