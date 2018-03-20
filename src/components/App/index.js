@@ -4,6 +4,7 @@ import Aux from 'react-aux';
 
 import Home from '../Home';
 import About from '../About';
+import Courses from '../Courses';
 
 import Header from './Header';
 import Footer from './Footer';
@@ -15,6 +16,7 @@ const App = () => (
             <main>
                 <Switch>
                     <Route exact path="/" component={Home}/>
+                    <Route exact path="/courses" component={Courses}/>
                     <Route exact path="/about" component={About}/>
                 </Switch>
             </main>
